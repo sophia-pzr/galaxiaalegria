@@ -1,0 +1,284 @@
+/*all pages*/
+body { 
+  background-image: url("../imagenes/spacebackarchi.svg");
+  background-size: cover;
+}
+
+/*about*/
+.sections__tittle {
+  margin:auto;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #30f9d7;
+  font-family: Bungee;
+  font-size: 35px;
+  
+}
+
+.hvr-bob {
+ height: 180px;
+ vertical-align: top;
+ margin: auto;
+ display: block
+}
+
+.about__text {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #e4c5ff;
+  width: 70%;
+  color: #280844;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+  padding: 20px; 
+  border-radius: 35px 0px 35px 0px; 
+  -moz-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  box-shadow: 0 0 0 transparent, 0.2em 0.2em 0.5em black;
+}
+
+
+/*contact*/
+
+div .content  {
+  margin-bottom: 50px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  margin-top: 20px;
+}
+
+.hvr-wobble-to-top-right {
+height: 450px;
+}
+
+.form__group{
+margin-bottom: 20px;
+color: white;
+font-family: 'Montserrat', serif;
+font-size: 12px;
+font-weight: bold;
+width: 650px}
+
+
+.miBoton { display: table;
+margin: left;
+text-decoration: none;
+}
+
+@charset "utf-8";
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#popup__body{
+    width: 46%;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #CCC;
+    background: #bbfff4;
+    position: relative;
+    transition: all 5s ease-in-out;
+    margin: 20% auto;
+    text-align: center;  
+}
+#cerrar{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ba6cff;
+}
+
+/*bazar*/
+
+.miBoton2 {
+  //border-radius: 10px;
+  border-color: white;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;}
+
+.products__tittle {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 15px;
+  text-align: left;
+  color: #ba6cff;
+  font-family: Bungee;
+  font-size: 20px;
+ }
+
+div .card {
+ margin-bottom: 25px;
+ margin-right: 25px;
+ justify-content: safe center;
+justify-items: space-around;}
+  
+.card-title {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.card-subtitle {
+  font-family: Montserrat;
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-family: Montserrat;
+  font-size: 10px;
+  text-align: justify;
+ }
+
+ .price {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: right;
+ }
+ 
+ /*guardianes*/
+
+ p .text {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 750;
+  text-align: center;
+  align-items: center;
+  }
+
+  .g__text2 {
+    color: #641ead;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+
+.img {
+  height:50%x;
+}
+
+.g__input {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.g__content{
+display: flex;
+justify-content: center;
+background-color: white;
+border-radius: 12px;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 25px;
+}
+
+
+/* footer*/
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#2b004e;
+  color:white;
+}
+
+
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+@media all and (max-width:600px) {
+
+  .about__text {
+    font-size: 12px;
+  }}
+
+  @media all and (max-width:300px) {
+
+  .about__text {
+    font-size: 8px;
+  }}
